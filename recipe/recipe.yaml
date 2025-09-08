@@ -13,7 +13,7 @@ source:
     - 0002-Fix-undefined-symbol-png_set_gray_1_2_4_to_8.patch
 
 build:
-  number: 0
+  number: 1
   skip: win
 
 requirements:
@@ -29,7 +29,7 @@ requirements:
     - libjpeg-turbo
     - libtool
     - libpng
-    - libxml2 =2.13
+    - libxml2-devel =2.13
     - zlib
 
 tests:
