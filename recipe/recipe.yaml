@@ -29,7 +29,7 @@ requirements:
     - libjpeg-turbo
     - libtool
     - libpng
-    - libxml2-devel =2.13
+    - libxml2-devel
     - zlib
 
 tests:
