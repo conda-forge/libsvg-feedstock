@@ -2,6 +2,8 @@
 
 set -o xtrace -o nounset -o pipefail -o errexit
 
+sed -i 's?#include <libxml/hash.h>?#include <libxml/hash.h>\n#include <libxml/parser.h>?' src/svgint.h
+
 autoreconf --force --install --verbose
 export CFLAGS="${CFLAGS} -Wno-implicit-function-declaration -Wno-int-conversion"
 ./configure --disable-silent \
