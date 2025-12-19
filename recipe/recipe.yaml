@@ -25,6 +25,7 @@ requirements:
     - libtool
     - make
     - pkg-config
+    - sed
   host:
     - libjpeg-turbo
     - libtool
